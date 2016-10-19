@@ -12,6 +12,10 @@ namespace _161017.Controllers
         {
             return View();
         }
+        public ActionResult welcome()
+        {
+            return View();
+        }
 
         public ActionResult welcome()
         {
