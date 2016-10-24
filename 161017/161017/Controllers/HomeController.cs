@@ -17,10 +17,7 @@ namespace _161017.Controllers
             return View();
         }
 
-        public ActionResult welcome()
-        {
-            return View();
-        }
+     
         public ActionResult list()
         {
             string[] data = new string[] {
@@ -37,6 +34,12 @@ namespace _161017.Controllers
         }
 
         public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
+        public ActionResult Add()
         {
             ViewBag.Message = "Your contact page.";
 
