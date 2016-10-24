@@ -45,5 +45,11 @@ namespace _161017.Controllers
 
             return View();
         }
+        public ActionResult Save()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
